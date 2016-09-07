@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="x-ua-compatible" content="ie=edge")
+    title #{title}
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="stylesheets/app.css")
+  body
+    <!--[if IE]>
+    div.browserupgrade
+      p 请升级浏览器以获得更好的使用体验
+        a(href="http://browsehappy.com/") 下载链接
+    <![endif]-->
+
+    block content
+
+    script(src="javascripts/app.js")

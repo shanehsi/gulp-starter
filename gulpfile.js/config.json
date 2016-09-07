@@ -29,6 +29,7 @@
       },
       "extractSharedJs": false
     },
+
     "css": {
       "src": "stylesheets",
       "dest": "stylesheets",
@@ -51,7 +52,10 @@
       "htmlmin": {
         "collapseWhitespace": true
       },
-      "extensions": ["html", "json"],
+      "extensions": [
+        "jade",
+        "json"
+      ],
       "excludeFolders": ["layouts", "shared", "macros", "data"]
     },
 
