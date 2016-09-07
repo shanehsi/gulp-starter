@@ -7,10 +7,10 @@
     "node": ">=4.2.4 ~6.3.0",
     "npm": ">=2.14.12 ~3.10.3"
   },
-  "homepage": "http://code.viget.com/gulp-starter/",
+  "homepage": "https://github.com/shanehsi/gulp-starter",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vigetlabs/gulp-starter.git"
+    "url": "git@github.com:shanehsi/gulp-starter.git"
   },
   "scripts": {
     "start": "gulp",
