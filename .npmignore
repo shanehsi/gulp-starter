@@ -3,3 +3,4 @@ extras/demo
 .travis.yml
 .test.js
 __tests__
+/.idea/
