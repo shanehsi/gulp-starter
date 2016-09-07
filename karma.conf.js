@@ -12,7 +12,7 @@ var karmaConfig = {
   preprocessors: {},
   webpack: webpackConfig('test'),
   singleRun: process.env.TRAVIS_CI === 'true',
-  reporters: ['nyan'],
+  reporters: ['mocha'],
   browsers: [(process.env.TRAVIS_CI === 'true'? 'Firefox' : 'Chrome')]
 }
 
